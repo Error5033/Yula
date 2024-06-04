@@ -13,4 +13,4 @@ $(window).scroll(function(e){
   if ($(this).scrollTop() < 200 && isPositionFixed){
     $el.css({'position': 'static', 'top': '0px'}); 
   } 
-});
+}); 
