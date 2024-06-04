@@ -1,3 +1,16 @@
+$(window).resize(function(){
+  if($(window).width() > 766){
+    $('.hide').hide();
+  }else{
+    console.log('halo');
+   //add $('.submenu').show(); to show menu
+  }
+});
+
+
+
+
+
 // JavaScript Document
 
 
